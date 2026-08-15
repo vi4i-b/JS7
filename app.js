@@ -5,6 +5,7 @@
 //5.istifeciden alinan stringde butun t herflerinin yerine "####" qoyun.
 
 let userInput = prompt("Enter a string:");
+console.log (userInput.length);
 console.log (userInput.includes("e"));
 console.log (userInput.startsWitsh("code"));
 console.log (userInput.endsWith("code"));
