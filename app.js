@@ -1,7 +1,6 @@
-let a="Jalil Karamli";
-let b=a.split(" ");
-let c=b[0], d=b[1] ;
-let sum=c.length+d.length;
-console.log(sum);
-
+let a=12345;
+let b=98765;
+let c=a*b;
+let d=Math.floor(c/1000000%10);
+console.log(d);
 
