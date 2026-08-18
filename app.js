@@ -1,14 +1,8 @@
-//1.istifeciden alinan stringin uzunlugunu tapin.
-//2.istifeciden alinan stringinde "e" herfi olub olmadigini yoxlayin.
-//3.istifeciden alinan stringin "code" sozu ile basladigini yoxlayin.
-//4.istifeciden alinan stringin "code" sozu ile bitdiyini yoxlayin.
-//5.istifeciden alinan stringde butun t herflerinin yerine "####" qoyun.
+let a = prompt("4 reqemli eded daxil et");
 
-let userInput = prompt("Enter a string:");
-console.log (userInput.length);
-console.log (userInput.includes("e"));
-console.log (userInput.startsWitsh("code"));
-console.log (userInput.endsWith("code"));
-console.log (userInput.replaceAll("t", "####"));
-
-
+if (a && a.length === 4 && !isNaN(a)) {
+    let b = Number(a[0]) + Number(a[1]) + Number(a[2]) + Number(a[3]);
+    console.log("Rəqəmlərin cəmi:", b);
+} else {
+    alert("Sehifeni yenileyin ve 4 reqemli eded daxil edin");
+}
