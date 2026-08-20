@@ -16,4 +16,7 @@ var newArr=[];
             newArr.push(arr[i]);
         }
     }
+
     console.log(newArr);
+}
+startWithA(b);
