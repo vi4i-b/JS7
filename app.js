@@ -13,3 +13,9 @@ function Max(num1, num2, num3) {
 }
 
 console.log(Max(5, 10, 3));
+
+function Min(num1, num2, num3) {
+    return Math.min(num1, num2, num3);
+}
+
+console.log(Min(5, 10, 3));
