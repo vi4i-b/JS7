@@ -7,3 +7,13 @@ function ThreeletterWord(arr){
     }
 }
 ThreeletterWord(a);
+
+let b=["Aslan","Leo","Simba"];
+function startWithA(arr){
+var newArr=[];
+    for(let i=0; i<arr.length; i++){
+        if(arr[i].startsWith("A")){
+            newArr.push(arr[i]);
+        }
+    }
+    console.log(newArr);
