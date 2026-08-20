@@ -1,21 +1,9 @@
-let a ="Jalil"
-let b="John"
-let c="Ali"
-function greet(name) {
-    console.log( name+ " " + "is active now");
+let a=["Blue","Red","Green","Yellow"];
+function ThreeletterWord(arr){
+    for(let i=0; i<arr.length; i++){
+        if(arr[i].length===3){
+            console.log(arr[i]);
+        }
+    }
 }
-greet(a);
-greet(b);
-greet(c);
-
-function Max(num1, num2, num3) {
-    return Math.max(num1, num2, num3);
-}
-
-console.log(Max(5, 10, 3));
-
-function Min(num1, num2, num3) {
-    return Math.min(num1, num2, num3);
-}
-
-console.log(Min(5, 10, 3));
+ThreeletterWord(a);
