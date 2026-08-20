@@ -7,3 +7,9 @@ function greet(name) {
 greet(a);
 greet(b);
 greet(c);
+
+function Max(num1, num2, num3) {
+    return Math.max(num1, num2, num3);
+}
+
+console.log(Max(5, 10, 3));
